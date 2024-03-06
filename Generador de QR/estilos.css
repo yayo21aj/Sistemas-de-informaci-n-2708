@@ -1,0 +1,30 @@
+body{
+    background: rgb(165,0,230);
+    background: linear-gradient(90deg, rgba(165,0,230,1) 36%, rgba(85,51,116,1) 46%, rgba(0,255,3,1) 88%);
+}
+
+.container{
+    background-color: black;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input, select, button{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: blueviolet;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+h1, div{
+    text-align: center;
+    color: white;
+}
